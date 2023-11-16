@@ -1,0 +1,11 @@
+.card{
+    /* display: none; */
+    width: 20%;
+}
+img{
+    width: 100%;
+    
+}
+.active{
+    display: block;
+}
