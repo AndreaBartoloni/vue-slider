@@ -13,9 +13,9 @@
     <div id="app">
 
         <img :src="slides[startSlide].immagine">
-        <h2>{{slides.nome}}</h2>
-        <p>{{slides.descrizione}}</p>
-        <p>{{slides.prezzo}} €</p>  
+        <h2>{{slides[startSlide].nome}}</h2>
+        <p>{{slides[startSlide].descrizione}}</p>
+        <p>{{slides[startSlide].prezzo}} €</p>  
 
         <button @click="prev()">Prev</button>
         <button @click="next()">Next</button>
